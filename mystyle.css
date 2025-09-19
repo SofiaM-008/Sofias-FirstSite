@@ -22,6 +22,8 @@ a:visited {
 /* mouse over link */
 a:hover {
   color: #29333B;
+  font-size: 18px;
+
 }
 
 /* selected link */
@@ -29,9 +31,12 @@ a:active {
   color: gray;
 }
 
-body {
+#body {
 	background-color:#f2f0e4; 
 	color: #000000;
+	max-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 #footer { 
